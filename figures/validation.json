@@ -1,0 +1,123 @@
+{
+  "mesh": [
+    {
+      "spacing_nm": 0.1,
+      "Ns_cm2": 7628054464723.218,
+      "centroid_nm": 2.410898788597419,
+      "ground_energy_eV": 0.014444423973717105,
+      "capacitance_F_m2": 0.02608608373221629,
+      "FD_FEM_ground_difference_meV": 0.049941586486638295
+    },
+    {
+      "spacing_nm": 0.05,
+      "Ns_cm2": 7627530843305.883,
+      "centroid_nm": 2.4114085704751496,
+      "ground_energy_eV": 0.014443230540156105,
+      "capacitance_F_m2": 0.026083701868399,
+      "FD_FEM_ground_difference_meV": 0.012501952276422479
+    },
+    {
+      "spacing_nm": 0.025,
+      "Ns_cm2": 7627399989859.772,
+      "centroid_nm": 2.411535985140885,
+      "ground_energy_eV": 0.014442937423787421,
+      "capacitance_F_m2": 0.026083106297672583,
+      "FD_FEM_ground_difference_meV": 0.003126521841124996
+    }
+  ],
+  "exact_spectra": [
+    {
+      "spacing_nm": 0.1,
+      "box_max_relative_error": 0.0001850413849221466,
+      "airy_max_relative_error": 0.0010428529317493274
+    },
+    {
+      "spacing_nm": 0.05,
+      "box_max_relative_error": 4.626291478515565e-05,
+      "airy_max_relative_error": 0.00026021976815515657
+    },
+    {
+      "spacing_nm": 0.025,
+      "box_max_relative_error": 1.1565887832576394e-05,
+      "airy_max_relative_error": 6.502423018317494e-05
+    }
+  ],
+  "capacitance_steps": [
+    {
+      "dV_V": 0.002,
+      "gate_capacitance_F_m2": 0.02608369264372242
+    },
+    {
+      "dV_V": 0.001,
+      "gate_capacitance_F_m2": 0.026083701868399
+    },
+    {
+      "dV_V": 0.0005,
+      "gate_capacitance_F_m2": 0.026083704317440837
+    }
+  ],
+  "state_truncation": [
+    {
+      "states_per_ladder": 4,
+      "Ns_frozen_potential_cm2": 7558248393109.639,
+      "relative_difference_vs_32": -0.009083208133736864,
+      "retained_last_three_fraction": 0.411350001916
+    },
+    {
+      "states_per_ladder": 8,
+      "Ns_frozen_potential_cm2": 7627521367730.458,
+      "relative_difference_vs_32": -1.2422860844463202e-06,
+      "retained_last_three_fraction": 0.0015789060204867498
+    },
+    {
+      "states_per_ladder": 16,
+      "Ns_frozen_potential_cm2": 7627530843306.474,
+      "relative_difference_vs_32": 7.749356711883593e-14,
+      "retained_last_three_fraction": 1.6057230891678543e-14
+    },
+    {
+      "states_per_ladder": 32,
+      "Ns_frozen_potential_cm2": 7627530843305.883,
+      "relative_difference_vs_32": 0.0,
+      "retained_last_three_fraction": 5.565644689747668e-62
+    },
+    {
+      "states_per_ladder": 48,
+      "Ns_frozen_potential_cm2": 7627530843306.474,
+      "relative_difference_vs_32": 7.749356711883593e-14,
+      "retained_last_three_fraction": 9.708134560287795e-141
+    }
+  ],
+  "exact_box_final_order": 1.999980149668097,
+  "feedback": {
+    "one_shot_Ns_cm2": 2640433169127.489,
+    "self_consistent_Ns_cm2": 7627530843305.883,
+    "one_shot_relative_difference": -0.653828581834605,
+    "alternate_root_grid_nm": 0.25,
+    "alternate_root_evaluations": 57,
+    "alternate_root_potential_difference_V": 2.9121149935917856e-12,
+    "alternate_root_relative_Ns_difference": 4.497890948584882e-11,
+    "mixing": [
+      {
+        "mixing": 0.35,
+        "iterations": 77,
+        "Ns_cm2": 7627530843566.787,
+        "max_potential_difference_V": 1.3519740882372844e-12
+      },
+      {
+        "mixing": 0.6,
+        "iterations": 40,
+        "Ns_cm2": 7627530843305.883,
+        "max_potential_difference_V": 0.0
+      },
+      {
+        "mixing": 0.9,
+        "iterations": 21,
+        "Ns_cm2": 7627530843381.626,
+        "max_potential_difference_V": 2.633560036713334e-12
+      }
+    ]
+  },
+  "maximum_sweep_gauss_error": 3.0078654198042924e-08,
+  "maximum_sweep_poisson_correction_V": 3.780446257380852e-11
+}

@@ -1,0 +1,51 @@
+{
+  "device": {
+    "silicon_nm": 10.0,
+    "oxide_nm": 2.0,
+    "temperature_K": 300.0,
+    "acceptors_cm3": 1e+16,
+    "ec_reference_eV": 0.35,
+    "gate_offset_V": 0.0
+  },
+  "spacing_nm": 0.05,
+  "states_per_ladder": 32,
+  "at_0p8V_quantum": {
+    "model": "quantum",
+    "Vg_V": 0.8,
+    "Ns_cm2": 7627530843305.883,
+    "nearest_interface_centroid_nm": 2.4114085704751496,
+    "gate_charge_C_m2": 0.012236673457972304,
+    "residual_correction_V": 2.1841690367382587e-11,
+    "relative_gauss_error": 5.121462245377175e-11,
+    "iterations": 40,
+    "Delta2_fraction": 0.5829772609171766,
+    "Delta2_ground_eV": 0.014443230540156105,
+    "Delta4_ground_eV": 0.048237773131684814
+  },
+  "at_0p8V_classical": {
+    "model": "classical",
+    "Vg_V": 0.8,
+    "Ns_cm2": 9024031710711.764,
+    "nearest_interface_centroid_nm": 1.2842467501307075,
+    "gate_charge_C_m2": 0.014474114517062363,
+    "residual_correction_V": 2.3690723680563002e-11,
+    "relative_gauss_error": 4.525801890288058e-11,
+    "iterations": 30,
+    "Delta2_fraction": null,
+    "Delta2_ground_eV": null,
+    "Delta4_ground_eV": null
+  },
+  "criterion_1e12": {
+    "silicon_nm": 10,
+    "oxide_nm": 2.0,
+    "temperature_K": 300.0,
+    "quantum_criterion_V": 0.34436296259345717,
+    "classical_criterion_V": 0.32295338545179,
+    "shift_mV": 21.409577141667192
+  },
+  "gate_capacitance_quantum_F_m2": 0.026083701868399,
+  "gate_capacitance_classical_F_m2": 0.029891953294929746,
+  "two_oxide_limit_F_m2": 0.034531332469920004,
+  "frozen_spectrum_quantum_capacitance_F_m2": 0.4148287321836102,
+  "scope": "Equilibrium electron-only infinite-barrier thin-Si Hartree model; no holes, transport, exchange-correlation or experimental data."
+}
